@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navegation from './Navegation';
 
 class Header extends Component {
   render() {
@@ -6,7 +7,7 @@ class Header extends Component {
       <header>
         <h1>Start React</h1>
         <img />
-        <nav />
+        <Navegation />
       </header>
     );
   }
